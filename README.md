@@ -43,6 +43,14 @@ $assignment->body = 'Finish school work';
 $assignment->save();
 App\Assignmnet::all();
 
+npm -v
+
+npm install 
+
+npm run dev
+
+npm run watch
+
 
 
 
