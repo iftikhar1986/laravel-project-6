@@ -16,11 +16,19 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return view('about');
+
+
+
+    return view('about',[
+
+
+        'articles' => App\Article::latest()->get()
+
+        ]);
 });
 
 
-
+Route::get('/articles/{article}','ArticlesController@show');
 
 
 

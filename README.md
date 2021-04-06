@@ -51,6 +51,12 @@ npm run dev
 
 npm run watch
 
+php artisan make:model Article -m
+
+php artisan migrate
+
+
+
 
 
 
