@@ -55,6 +55,11 @@ php artisan make:model Article -m
 
 php artisan migrate
 
+7 Restfull Controller Action
+
+index, show, create, store, edit, update, destory
+
+php artisan help make:controller
 
 
 
